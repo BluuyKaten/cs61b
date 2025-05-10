@@ -15,10 +15,10 @@ public class Test {
 //        System.out.println(arrayList[0]);
 //        System.out.println(size);
 
-        TimeSeries catPopulation = new TimeSeries();
-        catPopulation.put(1991, 0.0);
-        catPopulation.put(1992, 100.0);
-        catPopulation.put(1994, 200.0);
+//        TimeSeries catPopulation = new TimeSeries();
+//        catPopulation.put(1991, 0.0);
+//        catPopulation.put(1992, 100.0);
+//        catPopulation.put(1994, 200.0);
 
 //        TimeSeries dogPopulation = new TimeSeries();
 //        dogPopulation.put(1994, 400.0);
@@ -28,7 +28,7 @@ public class Test {
 //        System.out.println(totalPopulation);
 //        catPopulation.years();
 
-//        NGramMap  nGramMap = new NGramMap("data/ngrams/very_short.csv" ,"data/ngrams/total_counts.csv");
+        NGramMap  nGramMap = new NGramMap("data/ngrams/very_short.csv" ,"data/ngrams/total_counts.csv");
 
     }
 }
